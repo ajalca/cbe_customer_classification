@@ -13,7 +13,7 @@ Definición de mal pagador:
  1.1. Durante 12 meses el cliente superó mas de 30 días al menos una vez.  3. Durante 24 meses el cliente superó mas de 30 días al menos 2 veces.
 2. Cree un dataset a nivel de cliente, en donde cada fila sea un cliente único. Este dataset contará con los clientes que entrarán al análisis, es probable que usted excluya ciertos clientes porque no cumplen con criterios que usted considere relevantes, por ejemplo: excluir del análisis a clientes que nunca recibieron un crédito o a clientes que recién llevan x cantidad de meses con el crédito. 
 3. El dataset deberá constar de dos columnas CLIENTE_ID y  mal_pagador.
-4. 
+
 Join con información adicional del cliente:
 1. Con el dataset que creó anteriormente, unifíquelo con el archivo de información adicional del cliente. Asegurese de que solo se encuentren los clientes que quiere analizar
 Data quality:
